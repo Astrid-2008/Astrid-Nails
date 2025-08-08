@@ -1,0 +1,165 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astrid Nails - Salón de Uñas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="logo">Astrid Nails</h1>
+                <div class="nav-menu">
+                    <a href="#inicio" class="nav-link">Inicio</a>
+                    <a href="#galeria" class="nav-link">Galería</a>
+                    <a href="#contacto" class="nav-link">Contacto</a>
+                    <a href="#ubicacion" class="nav-link">Ubicación</a>
+                    <button id="themeToggle" class="nav-link theme-nav-button" aria-label="Cambiar tema">
+                        <i class="fas fa-sun" id="themeIcon"></i>
+                        <span>Tema</span>
+                    </button>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h2 class="hero-title">Belleza y Elegancia en tus Manos</h2>
+                <p class="hero-description">Diseño de uñas.</p>
+                <div class="social-buttons">
+                    <a href="https://wa.me/+523132138788" target="_blank" class="btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                        WhatsApp
+                    </a>
+                    <a href="https://facebook.com/astridnails" target="_blank" class="btn-facebook" style="display: none;">
+                        <i class="fab fa-facebook-f"></i>
+                        Facebook
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" class="gallery-section">
+            <div class="container">
+                <h2 class="section-title">Nuestra Galería</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="nail-art-1.jpg" alt="Diseño de uñas elegante" loading="lazy">
+                        <div class="overlay">
+                            <p>Diseño Elegante</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="nail-art-2.jpg" alt="Manicure francesa" loading="lazy">
+                        <div class="overlay">
+                            <p>Manicure Francesa</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="nail-art-3.jpg" alt="Arte en uñas colorido" loading="lazy">
+                        <div class="overlay">
+                            <p>Arte Colorido</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="nail-art-4.jpg" alt="Diseño minimalista" loading="lazy">
+                        <div class="overlay">
+                            <p>Estilo Minimalista</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="nail-art-5.jpg" alt="Uñas con glitter" loading="lazy">
+                        <div class="overlay">
+                            <p>Glitter Brillante</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="nail-art-6.jpg" alt="Diseño de temporada" loading="lazy">
+                        <div class="overlay">
+                            <p>Diseño Especial</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Contáctanos</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <p>+52 313 213 8788</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>astridayeleng@gmail.com</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <p>Lun - Sáb: 9:00 AM - 7:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://wa.me/+52313 2138788" target="_blank" class="social-link whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://facebook.com/astridnails" target="_blank" class="social-link facebook" style="display: none;">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://instagram.com/astridnails" target="_blank" class="social-link instagram" style="display: none;">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ubicacion" class="location-section">
+            <div class="container">
+                <h2 class="section-title">Nuestra Ubicación</h2>
+                <div class="location-content">
+                    <div class="location-text">
+                        <h3>¿Dónde nos encuentras?</h3>
+                        <p><strong>Dirección:</strong>Calle: Álvaro Obregón 107</p>
+                        <p><strong>Ciudad:</strong> Coahuayana de Hidalgo, Michoacán, México</p>
+                    </div>
+                    <div class="location-features">
+                        <div class="feature">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Fácil acceso</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Astrid Nails. Todos los derechos reservados.</p>
+            <div class="footer-social">
+                <a href="https://wa.me/+523132138788" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://facebook.com/astridnails" target="_blank" style="display: none;">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
